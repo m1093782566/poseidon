@@ -441,8 +441,7 @@ kube::golang::fallback_if_stdlib_not_installable() {
 # Ideally, not a shell script because testing shell scripts is painful.
 kube::golang::build_kube_toolchain() {
   local targets=(
-    hack/cmd/teststale
-    vendor/github.com/jteeuwen/go-bindata/go-bindata
+    vendor/k8s.io/kubernetes/hack/cmd/teststale
   )
 
   local binaries
