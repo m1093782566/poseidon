@@ -1,0 +1,8 @@
+{
+	"GoPrefix": "github.com/kubernetes-sigs/poseidon",
+	"SkippedPaths": [
+		"^_.*"
+	],
+	"AddSourcesRules": true,
+	"K8sOpenAPIGen": true
+}
